@@ -6,11 +6,9 @@ import lombok.*;
 
 import java.time.LocalDateTime;
 
-@AllArgsConstructor
 @Getter
 @Setter
 @EqualsAndHashCode
-@Builder
 public class SendReport {
 
     private LocalDateTime dateTime;
@@ -18,4 +16,12 @@ public class SendReport {
     private Offer offer;
 
     private Report report;
+
+
+    @Builder
+    public SendReport(LocalDateTime dateTime, Offer offer, Report report) {
+        this.dateTime = dateTime;
+        this.offer = offer;
+        this.report = report;
+    }
 }

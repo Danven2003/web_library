@@ -1,6 +1,7 @@
 package com.danven.web_library.domain.book;
 
 import com.danven.web_library.domain.offer.Offer;
+import com.danven.web_library.domain.operation.LikeProduct;
 import lombok.*;
 
 import java.util.Set;
@@ -12,6 +13,8 @@ import java.util.Set;
 @Builder
 public class FavouriteBooks {
 
-    Set<Offer> offers;
+    private Set<Offer> offers;
+
+    private LikeProduct likeProduct;
 
 }

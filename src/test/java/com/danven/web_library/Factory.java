@@ -5,6 +5,7 @@ import com.danven.web_library.domain.billing.CreditCard;
 import com.danven.web_library.domain.book.*;
 import com.danven.web_library.domain.offer.ContactInfo;
 import com.danven.web_library.domain.offer.Offer;
+import com.danven.web_library.domain.operation.SendReport;
 import com.danven.web_library.domain.report.Report;
 import com.danven.web_library.domain.user.*;
 
@@ -169,4 +170,5 @@ public class Factory {
     public static Report getReport(String description){
         return new Report(description);
     }
+
 }

@@ -1,7 +1,6 @@
 package com.danven.web_library.domain.book;
 
 import com.danven.web_library.Factory;
-import com.danven.web_library.domain.book.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -19,7 +18,6 @@ public class PBookTest {
     private Set<Category> categories;
 
     private Language language;
-
 
     @BeforeEach
     public void initialize(){
