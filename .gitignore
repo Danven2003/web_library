@@ -11,6 +11,8 @@ gen/
 *.project
 *.settings/
 
+target/
+
 spring-boot-starter-*.jar
 
 # VS Code
